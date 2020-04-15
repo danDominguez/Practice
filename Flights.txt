@@ -1,0 +1,2851 @@
+Inbound	Outbound	Minutes
+ACY	ATL	102
+ACY	FLL	136
+ACY	MCO	122
+ACY	MYR	90
+ACY	RSW	137
+ACY	TPA	129
+ATL	ACY	102
+ATL	BOS	132
+ATL	BWI	106
+ATL	CLE	104
+ATL	DFW	108
+ATL	DTW	108
+ATL	FLL	106
+ATL	IAH	103
+ATL	LAS	225
+ATL	LAX	248
+ATL	MCO	81
+ATL	MSP	128
+ATL	MSY	84
+ATL	OAK	269
+ATL	ORD	110
+ATL	PHL	100
+ATL	TPA	81
+AUA	FLL	155
+AXM	FLL	198
+BDL	FLL	159
+BDL	MCO	144
+BDL	MYR	100
+BDL	RSW	160
+BDL	TPA	152
+BOG	FLL	199
+BOS	ATL	132
+BOS	BWI	76
+BOS	CLE	102
+BOS	DFW	203
+BOS	DTW	96
+BOS	FLL	166
+BOS	LAS	298
+BOS	MCO	153
+BOS	MSP	153
+BOS	MSY	181
+BOS	MYR	108
+BOS	ORD	123
+BOS	TPA	160
+BQN	FLL	137
+BWI	ATL	106
+BWI	BOS	76
+BWI	CUN	184
+BWI	DFW	164
+BWI	DTW	82
+BWI	FLL	130
+BWI	IAH	166
+BWI	LAS	266
+BWI	LAX	292
+BWI	MCO	114
+BWI	MSP	131
+BWI	MSY	138
+BWI	MYR	80
+BWI	OAK	305
+BWI	ORD	95
+BWI	SAN	288
+BWI	SEA	292
+BWI	TPA	121
+CAK	FLL	142
+CAK	LAS	236
+CAK	MCO	123
+CAK	MYR	97
+CLE	ATL	104
+CLE	BOS	102
+CLE	DFW	142
+CLE	FLL	146
+CLE	LAS	234
+CLE	LAX	261
+CLE	MCO	127
+CLE	MSY	130
+CLE	MYR	103
+CLE	SEA	290
+CTG	FLL	153
+CUN	BWI	184
+CUN	DFW	142
+CUN	FLL	102
+CUN	IAH	117
+CUN	ORD	190
+DEN	DFW	97
+DEN	DTW	153
+DEN	FLL	220
+DEN	IAH	123
+DEN	LAS	96
+DEN	LAX	123
+DEN	LGA	210
+DEN	MCO	202
+DEN	MSP	102
+DEN	ORD	126
+DFW	ATL	108
+DFW	BOS	203
+DFW	BWI	164
+DFW	CLE	142
+DFW	CUN	142
+DFW	DEN	97
+DFW	DTW	137
+DFW	FLL	152
+DFW	LAS	145
+DFW	LAX	166
+DFW	LGA	183
+DFW	MCO	137
+DFW	MSP	122
+DFW	MSY	87
+DFW	MYR	144
+DFW	OAK	192
+DFW	ORD	116
+DFW	PHL	173
+DFW	PHX	123
+DFW	PIT	146
+DFW	SAN	158
+DFW	SJD	141
+DFW	TPA	130
+DTW	ATL	108
+DTW	BOS	96
+DTW	BWI	82
+DTW	DEN	153
+DTW	DFW	137
+DTW	FLL	153
+DTW	IAH	147
+DTW	LAS	225
+DTW	LAX	251
+DTW	LGA	95
+DTW	MCI	96
+DTW	MCO	134
+DTW	MSP	99
+DTW	MSY	130
+DTW	MYR	97
+DTW	OAK	262
+DTW	PHL	88
+DTW	RSW	148
+DTW	SJU	245
+DTW	TPA	137
+EWR	FLL	146
+EWR	IAH	185
+EWR	LAS	280
+EWR	MCO	131
+EWR	MSY	158
+EWR	MYR	102
+FLL	ACY	136
+FLL	ATL	106
+FLL	AUA	155
+FLL	AXM	198
+FLL	BDL	159
+FLL	BOG	199
+FLL	BOS	166
+FLL	BQN	137
+FLL	BWI	130
+FLL	CAK	142
+FLL	CLE	146
+FLL	CTG	153
+FLL	CUN	102
+FLL	DEN	220
+FLL	DFW	152
+FLL	DTW	153
+FLL	EWR	146
+FLL	GUA	143
+FLL	IAG	159
+FLL	IAH	135
+FLL	KIN	108
+FLL	LAS	274
+FLL	LAX	293
+FLL	LBE	136
+FLL	LGA	147
+FLL	LIM	326
+FLL	MBJ	100
+FLL	MCO	49
+FLL	MDE	184
+FLL	MGA	143
+FLL	MSY	101
+FLL	MYR	99
+FLL	ORD	160
+FLL	PAP	106
+FLL	PBG	178
+FLL	PHL	138
+FLL	PHX	250
+FLL	PIT	138
+FLL	PTY	158
+FLL	PUJ	128
+FLL	SAL	143
+FLL	SAN	285
+FLL	SAP	126
+FLL	SDQ	120
+FLL	SJO	155
+FLL	SJU	143
+FLL	STI	110
+FLL	STT	151
+FLL	SXM	165
+FLL	TPA	52
+GUA	FLL	143
+IAG	FLL	159
+IAG	MYR	98
+IAH	ATL	103
+IAH	BWI	166
+IAH	CUN	117
+IAH	DEN	123
+IAH	DTW	147
+IAH	EWR	185
+IAH	FLL	135
+IAH	LAS	164
+IAH	LAX	182
+IAH	MCO	122
+IAH	MSP	143
+IAH	MSY	67
+IAH	OAK	211
+IAH	ORD	130
+IAH	PIT	152
+IAH	SAN	174
+IAH	SAP	151
+IAH	SEA	240
+IAH	TPA	114
+KIN	FLL	108
+LAS	ATL	225
+LAS	BOS	298
+LAS	BWI	266
+LAS	CAK	236
+LAS	CLE	234
+LAS	DEN	96
+LAS	DFW	145
+LAS	DTW	225
+LAS	EWR	280
+LAS	FLL	274
+LAS	IAH	164
+LAS	LAX	57
+LAS	MCI	155
+LAS	MSP	173
+LAS	MSY	196
+LAS	OAK	82
+LAS	ORD	198
+LAS	PDX	111
+LAS	PHL	274
+LAS	PIT	243
+LAS	SAN	60
+LAS	SEA	124
+LAX	ATL	248
+LAX	BWI	292
+LAX	CLE	261
+LAX	DEN	123
+LAX	DFW	166
+LAX	DTW	251
+LAX	FLL	293
+LAX	IAH	182
+LAX	LAS	57
+LAX	LGA	308
+LAX	MCI	180
+LAX	MSP	200
+LAX	MSY	216
+LAX	OAK	72
+LAX	ORD	224
+LAX	PDX	120
+LAX	PHL	300
+LAX	PIT	269
+LAX	SEA	135
+LBE	FLL	136
+LBE	MCO	118
+LBE	MYR	88
+LGA	DEN	210
+LGA	DFW	183
+LGA	DTW	95
+LGA	FLL	147
+LGA	LAX	308
+LGA	MCI	151
+LGA	MYR	104
+LGA	ORD	108
+LGA	SJU	208
+LIM	FLL	326
+MBJ	FLL	100
+MCI	DTW	96
+MCI	LAS	155
+MCI	LAX	180
+MCI	LGA	151
+MCI	MCO	147
+MCO	ACY	122
+MCO	ATL	81
+MCO	BDL	144
+MCO	BOS	153
+MCO	BWI	114
+MCO	CAK	123
+MCO	CLE	127
+MCO	DEN	202
+MCO	DFW	137
+MCO	DTW	134
+MCO	EWR	131
+MCO	FLL	49
+MCO	IAH	122
+MCO	LBE	118
+MCO	MCI	147
+MCO	MSY	102
+MCO	ORD	139
+MCO	PHL	123
+MCO	PIT	120
+MCO	SJU	160
+MDE	FLL	184
+MGA	FLL	143
+MSP	ATL	128
+MSP	BOS	153
+MSP	BWI	131
+MSP	DEN	102
+MSP	DFW	122
+MSP	DTW	99
+MSP	IAH	143
+MSP	LAS	173
+MSP	LAX	200
+MSP	MSY	143
+MSP	ORD	71
+MSP	PHL	136
+MSY	ATL	84
+MSY	BOS	181
+MSY	BWI	138
+MSY	CLE	130
+MSY	DFW	87
+MSY	DTW	130
+MSY	EWR	158
+MSY	FLL	101
+MSY	IAH	67
+MSY	LAS	196
+MSY	LAX	216
+MSY	MCO	102
+MSY	MSP	143
+MSY	OAK	243
+MSY	ORD	120
+MSY	TPA	93
+MYR	ACY	90
+MYR	BDL	100
+MYR	BOS	108
+MYR	BWI	80
+MYR	CAK	97
+MYR	CLE	103
+MYR	DFW	144
+MYR	DTW	97
+MYR	EWR	102
+MYR	FLL	99
+MYR	IAG	98
+MYR	LBE	88
+MYR	LGA	104
+MYR	ORD	110
+MYR	PHL	91
+MYR	PIT	91
+OAK	ATL	269
+OAK	BWI	305
+OAK	DFW	192
+OAK	DTW	262
+OAK	IAH	211
+OAK	LAS	82
+OAK	LAX	72
+OAK	MSY	243
+OAK	ORD	235
+ORD	ATL	110
+ORD	BOS	123
+ORD	BWI	95
+ORD	CUN	190
+ORD	DEN	126
+ORD	DFW	116
+ORD	FLL	160
+ORD	IAH	130
+ORD	LAS	198
+ORD	LAX	224
+ORD	LGA	108
+ORD	MCO	139
+ORD	MSP	71
+ORD	MSY	120
+ORD	MYR	110
+ORD	OAK	235
+ORD	RSW	153
+ORD	SAN	222
+ORD	TPA	140
+PAP	FLL	106
+PBG	FLL	178
+PDX	LAS	111
+PDX	LAX	120
+PHL	ATL	100
+PHL	DFW	173
+PHL	DTW	88
+PHL	FLL	138
+PHL	LAS	274
+PHL	LAX	300
+PHL	MCO	123
+PHL	MSP	136
+PHL	MYR	91
+PHX	DFW	123
+PHX	FLL	250
+PIT	DFW	146
+PIT	FLL	138
+PIT	IAH	152
+PIT	LAS	243
+PIT	LAX	269
+PIT	MCO	120
+PIT	MYR	91
+PIT	RSW	135
+PIT	TPA	124
+PTY	FLL	158
+PUJ	FLL	128
+RSW	ACY	137
+RSW	BDL	160
+RSW	DTW	148
+RSW	ORD	153
+RSW	PIT	135
+SAL	FLL	143
+SAN	BWI	288
+SAN	DFW	158
+SAN	FLL	285
+SAN	IAH	174
+SAN	LAS	60
+SAN	ORD	222
+SAN	SJD	116
+SAP	FLL	126
+SAP	IAH	151
+SDQ	FLL	120
+SEA	BWI	292
+SEA	CLE	280
+SEA	IAH	240
+SEA	LAS	124
+SEA	LAX	135
+SJD	DFW	141
+SJD	SAN	116
+SJO	FLL	155
+SJU	DTW	245
+SJU	FLL	143
+SJU	LGA	208
+SJU	MCO	160
+STI	FLL	110
+STT	FLL	151
+SXM	FLL	165
+TPA	ACY	129
+TPA	ATL	81
+TPA	BDL	152
+TPA	BOS	160
+TPA	BWI	121
+TPA	DFW	130
+TPA	DTW	137
+TPA	FLL	52
+TPA	IAH	114
+TPA	MSY	93
+TPA	ORD	140
+TPA	PIT	124
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
