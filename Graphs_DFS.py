@@ -30,15 +30,15 @@ class Node:
 #Graph class to structure nodes
 class Graph:
     def __init__(self, data):
-        self.data = data
         self.nodes = {}
 
-    #Functiont to add a node to the graph or edge to an existing edge
+    #Function to add a node to the graph or edge to an existing edge
     def add_nodes(self):
-        for line in self.data:
-            _name = line[:3]
-            _dest = line[4:7]
-            _dist = int(line[-3:])
+        for line in data:
+            line = line.split()
+            _name = line[0]
+            _dest = line[1]
+            _dist = int(line[2])
             _edge = { _dist : _dest }
             new_node = Node(_name)
             #If the node is not known we create it and add the first edge. If the node is known, we reference it and add the edge.
@@ -84,35 +84,36 @@ class Graph:
 
 class Matrix:
     def __init__(self, data):
+        #Create a list of names for the nodes.
         self.uniques = []
-        [ self.uniques.append(line[:3]) for line in data if line[:3] not in self.uniques ]
+        [self.uniques.append(line[:3]) for line in data if line[:3] not in self.uniques]
         self.num_nodes = len(self.uniques)
-        # self.num_nodes = 5
-        self._matrix = [ [ 0 for node in range(self.num_nodes) ] for node in range(self.num_nodes) ]
+        #Create a matrix num_nodes x num_nodes in size.
+        self._matrix = [[0 for node in range(self.num_nodes)] for node in range(self.num_nodes)]
 
-    def print_matrix(self, range):
-        print("i:node\t{}".format("  ".join(self.uniques[:range])))
+    #This function will print the matrix. Accepts a range as an argument (58x58 was a bit much for my screens)
+    def print_matrix(self, range = 10):
+        print("i:node\t{}".format("\t".join(self.uniques[:range])))
         for index, row in enumerate(self._matrix[:range]):
            print("{}:{}\t{}".format(index,self.uniques[index], row[:range]))
 
+    #This function will add the edge by first finding the coordinating index value
     def add_edge(self, origin, destination , distance):
-        des_index = 0
-        ori_index = 0
         for index, name in enumerate(self.uniques):
             if name == origin:
                 ori_index = index
             if name == destination:
                 des_index = index
-        
         self._matrix[ori_index][des_index] = int(distance)
 
+    #Function to loop over the data list and create edges
     def add_edges(self):
         for line in data:
             line = line.split()
             ori = line[0]
             des = line[1]
             dis = line[2]
-            self.add_edge( ori, des, dis)
+            self.add_edge(ori, des, dis)
 
 if __name__ == '__main__':
     file = 'Flights.txt'
@@ -121,10 +122,11 @@ if __name__ == '__main__':
     #This solution uses an adjaceny list
     ap_graph = Graph(data)
     ap_graph.add_nodes()
-    # ap_graph.print_graph()
-    # print("Flight Path: {}".format(ap_graph.BFS('ACY', 'BDL')))
+    ap_graph.print_graph()
+    print("Flight Path: {}".format(ap_graph.BFS('ACY', 'BDL')))
 
     #Part2. Perform Dijkstras Algorithm to find the least amount of time required based on distance using adjaceny matrix
+    #This solution uses an adjaceny matrix
     ap_matrix = Matrix(data)
     ap_matrix.add_edges()
-    ap_matrix.print_matrix(20)
+    ap_matrix.print_matrix(58)
