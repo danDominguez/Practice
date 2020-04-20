@@ -23,10 +23,9 @@ class Node:
     def add_edge(self, _edge):
         self.edges.update(_edge)
     
-    #This is a function to return the nearest edge
+    #Return a list of the distances sorted 
     def min_edge(self):
-        edge_keys = sorted(self.edges)
-        return self.edges.get(edge_keys[0])
+        return sorted(self.edges)
 
 #Graph class to structure nodes
 class Graph:
@@ -49,6 +48,10 @@ class Graph:
                 self.nodes[_name].add_edge(_edge)
             else:
                 self.nodes[_name].add_edge(_edge)
+    #Function to print the graph
+    def print_graph(self):
+        for node_name, node in self.nodes.items():
+            print(node_name, node.edges)
 
     def BFS(self, origin, dest):
             # Create a queue for BFS
@@ -78,13 +81,50 @@ class Graph:
                         _curr_edge.visited = True
                         queue.append(_curr_edge)
             return path
-                    
-if __name__ == '__main__':
 
+class Matrix:
+    def __init__(self, data):
+        self.uniques = []
+        [ self.uniques.append(line[:3]) for line in data if line[:3] not in self.uniques ]
+        self.num_nodes = len(self.uniques)
+        # self.num_nodes = 5
+        self._matrix = [ [ 0 for node in range(self.num_nodes) ] for node in range(self.num_nodes) ]
+
+    def print_matrix(self, range):
+        print("i:node\t{}".format("  ".join(self.uniques[:range])))
+        for index, row in enumerate(self._matrix[:range]):
+           print("{}:{}\t{}".format(index,self.uniques[index], row[:range]))
+
+    def add_edge(self, origin, destination , distance):
+        des_index = 0
+        ori_index = 0
+        for index, name in enumerate(self.uniques):
+            if name == origin:
+                ori_index = index
+            if name == destination:
+                des_index = index
+        
+        self._matrix[ori_index][des_index] = int(distance)
+
+    def add_edges(self):
+        for line in data:
+            line = line.split()
+            ori = line[0]
+            des = line[1]
+            dis = line[2]
+            self.add_edge( ori, des, dis)
+
+if __name__ == '__main__':
     file = 'Flights.txt'
     data = import_data(file)
-    ap_graph = Graph( data )
+    #Part 1. Perform Breadth First Search on our Airport Node to fin0d flight path between two nodes based on layovers (Book a flight!)
+    #This solution uses an adjaceny list
+    ap_graph = Graph(data)
     ap_graph.add_nodes()
+    # ap_graph.print_graph()
+    # print("Flight Path: {}".format(ap_graph.BFS('ACY', 'BDL')))
 
-    print(ap_graph.BFS('ACY', 'BDL'))
-    
+    #Part2. Perform Dijkstras Algorithm to find the least amount of time required based on distance using adjaceny matrix
+    ap_matrix = Matrix(data)
+    ap_matrix.add_edges()
+    ap_matrix.print_matrix(20)
