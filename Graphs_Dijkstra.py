@@ -49,7 +49,7 @@ class Matrix:
         no_zeroes.sort()
         count = 0
         #Keep looping over the row to find an index that has not been used yet
-        while(count<len(no_zeroes)):
+        while(len(no_zeroes)!=0):
             #pop the first node from the list to use as a search 
             curr_search = no_zeroes.pop(0)
             #Loop over the row and get the index for the matching distance
