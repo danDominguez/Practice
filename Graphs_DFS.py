@@ -57,6 +57,7 @@ class Graph:
             # Create a queue for BFS
             queue = []
             path = ""
+            count = 0
             # Mark the source node as
             # visited and enqueue it
             queue.append(self.nodes[origin])
@@ -66,6 +67,7 @@ class Graph:
                 # queue and print it
                 origin = queue.pop(0)
                 path += origin.name + "->"
+                count+=1
                 # Get all adjacent nodes of the
                 # dequeued node s. If a adjacent node
                 # has not been visited, then mark it
@@ -74,14 +76,14 @@ class Graph:
                 if dest in edges:
                     path += dest
                     break
-
                 for edge in edges:
                     _curr_edge = self.nodes[edge]
                     if _curr_edge.visited == False:
                         _curr_edge.visited = True
                         queue.append(_curr_edge)
-            return path
+            return (count, path)
 
+#Adjacenty Matrix to represent our data
 class Matrix:
     def __init__(self, data):
         #Create a list of names for the nodes.
@@ -115,18 +117,67 @@ class Matrix:
             dis = line[2]
             self.add_edge(ori, des, dis)
 
+    #This function will return the lowest value distance in the array and the index as a tuple (index, value)
+    def get_min(self, row):
+        no_zeroes = [ distance for distance in row if distance > 0]
+        no_zeroes.sort()
+        count = 0
+        #Keep looping over the row to find an index that has not been used yet
+        while(count<len(no_zeroes)):
+            #pop the first node from the list to use as a search 
+            curr_search = no_zeroes.pop(0)
+            #Loop over the row and get the index for the matching distance
+            for index, distance in enumerate(row):
+                #If the index has not been visited yet then we use it
+                if index not in self.visited:
+                    if distance == curr_search:
+                        return((index, distance))
+            count +=1
+
+    #This is my implementation if dijkstras shortest path algorithm
+    #Returns a tuple where ((int)duration, (string)path)
+    def dijkstras(self, origin, dest):
+        dist = 0
+        self.visited = []
+        for index, name in enumerate(self.uniques):
+            if name == origin:
+                ori_index = index
+            if name == dest:
+                des_index = index        
+        #Add the origin node to the visited list
+        self.visited.append(ori_index)
+        #This will stop looping when we have visited every node in the graph or the return is met 
+        while(len(self.visited) < len(self.uniques)):
+            #If there is a direct path from the origin node just return the distance we are done.
+            v_base = self._matrix[ori_index][des_index]
+            if v_base:
+                dist+=v_base
+                path = [self.uniques[_] for _ in self.visited]
+                return (dist, "->".join(path))
+
+            #Get the index and distance of the nearest adjacent node
+            min_index, min_dist = self.get_min(self._matrix[ori_index])
+            dist += min_dist
+            ori_index = min_index
+            self.visited.append(min_index)
+
 if __name__ == '__main__':
+    #Import the data and return an array containing each line.
     file = 'Flights.txt'
     data = import_data(file)
     #Part 1. Perform Breadth First Search on our Airport Node to fin0d flight path between two nodes based on layovers (Book a flight!)
     #This solution uses an adjaceny list
     ap_graph = Graph(data)
     ap_graph.add_nodes()
-    ap_graph.print_graph()
-    print("Flight Path: {}".format(ap_graph.BFS('ACY', 'BDL')))
+    count, path = ap_graph.BFS('ACY', 'BOS')
+    print('\nBreadth First Search:')
+    print("Plane Count: {}\nFlight Path: {}".format(count,path))
 
-    #Part2. Perform Dijkstras Algorithm to find the least amount of time required based on distance using adjaceny matrix
+    #Part 2. Perform Dijkstras Algorithm to find the least amount of time required based on distance using adjaceny matrix
     #This solution uses an adjaceny matrix
     ap_matrix = Matrix(data)
     ap_matrix.add_edges()
-    ap_matrix.print_matrix(58)
+    duration, path = ap_matrix.dijkstras('ACY','BOS')
+    print('\nDijkstras:')
+    print("Flight Duration: {}\nFlight Path: {}".format(duration, path))
+
