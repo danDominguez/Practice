@@ -1,6 +1,7 @@
 #Use Beautiful Soup to grab the DNA signatures
 from bs4 import BeautifulSoup
 import requests
+import textwrap
 
 class Parser:
     def __init__(self):
@@ -48,6 +49,7 @@ class Parser:
                 _temp = self.data.pop(0)
                 if i == 1:
                     self.data.append(_temp)
+
     #This function will return a string  composed of the final_parsed codons stored in the data array
     # The formatting on the website was sub optimal im sure there is a better way to do this with a single loop 
     def make_string(self):
@@ -60,20 +62,45 @@ class Parser:
                 self.codon_string+=char
 
 class Node:
-    def __init__(self):
-        self.char = ''
-        self.children = []
-        self.isWord = False
+    def __init__(self, _char, end=False):
+        self.char = _char
+        self.children = {}
+        self.is_word = end
+    
+    def add_child(self, _node):
+        _key = _node.char
+        if _key not in self.children.keys():
+            self.children.update({ _key:_node })
 
 class Trie:
     def __init__(self, _str):
-        self.nodes = []
-        self._str = _str
+        self.nodes = {}
+        self.codon_string = _str
 
     def add_nodes(self):
-        pass
-        #loop over the string and see if the node is known 
+        #GCU GCC GCA GCG CGU CGC CGA CGG AGA AGG AAU AAC GAU GAC UGU UGC GAA
+        triplets = textwrap.wrap(self.codon_string, 3)
+        for trio in triplets:
+            #If the string is not in the trie already then we add it with its children nodes
+            if trio[0] in self.nodes:
+                _root = self.nodes.get(trio[0])
+                if trio[1] in _root.children:
+                    _root = _root.children.get(trio[1])
+                    _root.add_child(Node(trio[2],end=True))
+            else:
+                _node = Node(trio[0])
+                _node.add_child(Node(trio[1]))
+                _node.add_child(Node(trio[2],end=True))
+                self.nodes.update({ trio[0] :_node})
+
 
 #Create parser object to prep the data for our Trie
 parser = Parser()
-print(parser.codon_string)
+#Create a Trie object
+codon_trie = Trie(parser.codon_string)
+codon_trie.add_nodes()
+
+for key, value in codon_trie.nodes.items():
+    print(key, value.children)
+    for child in value.children.values():
+        print(child.children)
